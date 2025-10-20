@@ -1,0 +1,47 @@
+<h1>Bring your Own Introduction</h1>
+<form action="" id="form">
+    <fieldset>
+        <!-- Field set title -->
+        <legend>Name Information</legend>
+        <!-- First Name -->
+        <label for="firstName">First Name</label>
+        <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="Put your first name here"
+            value="Alexander"
+        />
+        <!-- Middle Name -->
+        <label for="middleName">Middle Name</label>
+        <input type="text" id="middleName" name="middleName" value="J" />
+        <!-- Last Name -->
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" value="Prechtel" />
+
+        <!-- Preferred Name -->
+        <label for="preferredName">Preferred Name</label>
+        <input
+            type="text"
+            id="preferredName"
+            name="preferredName"
+            value="Alex"
+        />
+    </fieldset>
+    <button onclick="submitData()">Submit</button>
+</form>
+<h2>Introduction</h2>
+<section>
+    <h3 id="formOutputData">Results will show here</h3>
+</section>
+<script src="./formHandler.js"></script>
+<!--<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    input {
+        max-width: 150px;
+    }
+</style>-->
